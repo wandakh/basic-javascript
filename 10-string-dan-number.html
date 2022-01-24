@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>String dan Number\</title>
+</head>
+<body>
+    <script>
+        const value1 = parseInt("1"); // conts value1 = "1" -> hasilnya 11
+        const value2 = 1 ;
+        const sum = value1 + value2 ;
+
+    document.writeln(`<p> ${sum} </p>`);
+
+    document.writeln(`<p>${parseInt("1.9")}</P>`);
+    document.writeln(`<p>${parseFloat("1.9")}</P>`);
+    document.writeln(`<p>${Number("1.9")}</P>`);
+
+        // konversi String -> Number
+        const a = 1;
+        const b = 1;
+        const total = a.toString() + b.toString();
+        document.writeln (`<p> ${total}</p>`);
+
+        document.writeln(`<p>${parseInt("Isalah")}</p>`);
+
+
+        // NaN ( Not a Number )
+        const first = Number ("Salah");
+        const totalNumber = first + 100 ;
+        document.writeln(`<p><${totalNumber}/P>`);
+
+
+            // isnan() function
+            document.writeln(`<p>${isNaNfirst}</P>`);
+            document.writeln(`<p>${isNaN(100)}</P>`);
+            document.writeln(`<p>${isNaN(NaN)}</P>`);
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
